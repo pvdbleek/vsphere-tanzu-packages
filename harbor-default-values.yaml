@@ -1,0 +1,259 @@
+namespace: harbor
+hostname: registry.h2o-4-1478.h2o.vmware.com
+port:
+  https: 443
+logLevel: info
+tlsCertificate:
+  tls.crt: |
+    -----BEGIN CERTIFICATE-----
+MIIGmDCCBICgAwIBAgIJALoE+fg/ZWVRMA0GCSqGSIb3DQEBDQUAMHoxCzAJBgNV
+BAYTAk5MMQwwCgYDVQQIDANHTEQxEjAQBgNVBAcMCUN1bGVtYm9yZzEQMA4GA1UE
+CgwHYmxlZWtpZTERMA8GA1UECwwIUGVyc29uYWwxJDAiBgNVBAMMG3RrZy1leHRl
+bnNpb25zLnN5c3RlbS50YW56dTAeFw0yMjEwMDYwODE3NTZaFw0zMjEwMDMwODE3
+NTZaMHoxCzAJBgNVBAYTAk5MMQwwCgYDVQQIDANHTEQxEjAQBgNVBAcMCUN1bGVt
+Ym9yZzEQMA4GA1UECgwHYmxlZWtpZTERMA8GA1UECwwIUGVyc29uYWwxJDAiBgNV
+BAMMG3RrZy1leHRlbnNpb25zLnN5c3RlbS50YW56dTCCAiIwDQYJKoZIhvcNAQEB
+BQADggIPADCCAgoCggIBAK7d5qzr7EdAqmlk2kZQoQZJO2zK0USYyhAjzsuxHHTf
+m51ZBz715YyFPGLuxnHT+2pDABOWqODjUZ9h55HwRqY5zj8qe6U8QtOq7eFy/gG5
+70/Vu/JBpyOW22OqmQmON4aLU+Q7hUYUyncMydhxRz6DILfOIu1MdV0AfB2ARCIG
+hnvHI/JbV9MZXKT4gDLnQ6dAiP5iGBix8ZXW6DMytKpcsIplm536+2+IL0WH05Kl
+JMvei5YaUK5ZvA7PDZnTsHKEZ7RCM/POK80Q7y6bIXJtcuQICEjaSYlO9tFDs6rz
+oBFiy6tefKYZgusuygwnTIi1RiJW8HE9y7Kw6b4NUHMZ9WJWhIBS2sut1j6RlsDB
+/+Pyd+8KtoCWno84T5RbDkgYtRY0tl5MrJ0uAndkB7GbQsG45cEJTozxTa77wiZS
+gIzkQ43z8t6sv/NJjKfvxKJplrA4ROBDJrzjSHOTvBqMXtMEDPZTi0GK8MZkSKvH
+9IQ2g1vy066vnHDIZlCvieBz52P1xYtzpTSfl7gHciOSnKog4Vmrs34EijhQSoCf
+XL7nJtXhpo2vs7ltO/4oVAFukkGhLyd0IUs2IGF43hPndRCM4uXtVafgx5HMsn6Z
+aGeLXajUGtEFvFrHP+jzEb/8O2EsUlnvi8/j8g1uyuW5Wk7CKowf0wTBX0tqYdm5
+AgMBAAGjggEfMIIBGzCBlgYDVR0jBIGOMIGLoX6kfDB6MQswCQYDVQQGEwJOTDEM
+MAoGA1UECAwDR0xEMRIwEAYDVQQHDAlDdWxlbWJvcmcxEDAOBgNVBAoMB2JsZWVr
+aWUxETAPBgNVBAsMCFBlcnNvbmFsMSQwIgYDVQQDDBt0a2ctZXh0ZW5zaW9ucy5z
+eXN0ZW0udGFuenWCCQCC+4zKhY+uzTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIE8DAT
+BgNVHSUEDDAKBggrBgEFBQcDATBTBgNVHREETDBKgiRlY2hvc2VydmVyLmgyby00
+LTE0NzguaDJvLnZtd2FyZS5jb22CInJlZ2lzdHJ5Lmgyby00LTE0NzguaDJvLnZt
+d2FyZS5jb20wDQYJKoZIhvcNAQENBQADggIBANI+49Rqo7mKQhC1FwEU+xT1Bs7d
+Ko9BFnPdQgP7/5HWbyxmUFoUaFNJyqQDbrZrW+PKlgJAYtQW5IFw5SggIGaWAZBx
+kTNmYijgLy0itk/PUQj3JR7dTQFa/WoWzBPPS/TETZBtUBuMq1dbdV8KNPm3oGXb
+IyTQ+gTrWZg59xTQa5KQZATKKwQhshrXfUKxtcUIp3YYCm55LuxDTpS1p0w7ui9k
+T682dvFI4N9moAYRYrqzFxoAPyCJMD78yTbM0IPbuDq33zMzc5WHIkJoGgeHTVQt
+soPR7Bo5Q+F9r3xzrLHE+vrR5BAmILNrDYQldQbI8HMvciouD72zMu7sdXdd728K
+0TSbFBHKVStVrJpbJ4maVhSdIc84jTvQYrE0PkH2VfbBvrBtQo9jI7zebprFAAhA
+lEyZ9bWfPxc/S41bomIWv9bWjYWSnFTOjNihzwZX1/rpnTTA/OrPhYi88s1BRAzJ
+PrDGijRXnt23RDRmQKiqF9Ih+r6LmPkBgxm+UagYjkIxEsoNxV0cFvxqirOPOcb7
+8hNcAsRALIiZGQ8BTXw+ECRGUkBaZ6ksSediyPL6aREW5fdvlK6xKHtIjsA3Cmd7
+70S/cwFu/OrHHkVXuzzhTlhYHasvVB261SxgOw+PnTRsQQz+GLuxCcJ3lqZc/THb
+IZuKkIYqMqelym63
+-----END CERTIFICATE-----
+  tls.key: |
+    -----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+MIIFcDCCA1gCCQCC+4zKhY+uzTANBgkqhkiG9w0BAQ0FADB6MQswCQYDVQQGEwJO
+TDEMMAoGA1UECAwDR0xEMRIwEAYDVQQHDAlDdWxlbWJvcmcxEDAOBgNVBAoMB2Js
+ZWVraWUxETAPBgNVBAsMCFBlcnNvbmFsMSQwIgYDVQQDDBt0a2ctZXh0ZW5zaW9u
+cy5zeXN0ZW0udGFuenUwHhcNMjIxMDA2MDgxMjI5WhcNMzIxMDAzMDgxMjI5WjB6
+MQswCQYDVQQGEwJOTDEMMAoGA1UECAwDR0xEMRIwEAYDVQQHDAlDdWxlbWJvcmcx
+EDAOBgNVBAoMB2JsZWVraWUxETAPBgNVBAsMCFBlcnNvbmFsMSQwIgYDVQQDDBt0
+a2ctZXh0ZW5zaW9ucy5zeXN0ZW0udGFuenUwggIiMA0GCSqGSIb3DQEBAQUAA4IC
+DwAwggIKAoICAQDUTydQ8+eopqPhA6/mP2coX5RuvHYTyPImw00WTOGqBehVnvPl
+ctsXEBV3POvKVX1cn1InNlE76hG/0I7G5qGwXij3NfXY7VnIiRcYAtvzv0TPXW0L
+LBZ/0rgkqqUB9ak2nXkVkGysBsIZtQzxNq9owEwyjnTqxaCZa+tsFIeCBl5W29z8
+S8BGlK2bYnSrkORc4rhKoU57IQmSK3prn/GJzgS6idSQ/4VXsIj6cxdcta98m/Ho
+Po7W0UvRiWUmslQ9EXhbhHaiJlhcGoaT1aJ6GQFBf1o6bM47Fw25zu8a6JeDx/Vt
+Qp0oTO+4q8DGWifAOsltRF506Y15wzSW4y4gLj0lMJT314LxMS+oAgvqgSuNrq4Q
+KCcuWsybHDTfUPKHZKFantPmzgGvniJTDQwcWjdd/PDldmKbaUIb/hFD7+i95kEK
+pJRvCEPf5mmBmqj/9n4JdFa7Osh2JEF5xzX1FKV5MFBEQCpF8JA912X5IDAHJlqR
+larr7Wq6kaNX/aryvtGa89kwc8i12H0pKdenfuZcyrd9s5n7KBIulRftN1cSNpd8
+5t5VA5btdNuEspNHVuxmztkEFrYNjKlRyYT8qsZCZO1IqdYaQdMxEgvDNWFoc6GX
+7tSHICPzqOp/IQrVmqjj/CHN+cZSVZ9tYfzBJIZ7PC/JPJMA3RPzwQ+oswIDAQAB
+MA0GCSqGSIb3DQEBDQUAA4ICAQAeGcKKKM69qkgZpfSFOKzFeSv6bH+KLJil+KSD
+CP1r83T9nqrqk2WNUNsncDLA12iw2wicO4Khm1IWQHPClPsBmtDmE+Ezh88XTTY8
+7bvXn0fIK3u/Gq+fq4hGoDREvlxKKliMxCoAKVOG6nV5/IplqLjLBxccxvVzaOnI
+VjM6yqi88ZDN/LoU9w6JP32ydCt0fSZsug1arpIcrq/EyecuyULZpFpzCFU8Wfqw
+RaFO8ekKh0jFnOZQFFr4tmJwwwjzh/tl1rwFnM9/AHe0QbzdjbSfLWmpRHpOUXC+
+2+iQ91TDzb85AT67J6qix4USMu1/MnSqS0edsPdn/IoFkBahCDJWXpahST7OW9Qs
+RHkVQauooGAEQFUuIYI8UMvSf6ljJ09zIdanTS/s9jwuzEeAnb5ErrjVpE5M6KdX
+ID5zn+rXpls4BP+Z7grO1Ii6DvRl/j+aRFW03eDEq5CEAa5ZlatKmNq8lrVVrJhJ
+q/8Kiw7fIHw3T90wEsWAeuzw288u3ZklovrEPqjArz/RB6wG1ZmMmtUmqnYwxOr1
+6jFmLZ1mv88sJ+CJpRhfkNYZaxo0NSgSoO4kfpGkV4aM8WIVqcpMC71OZsphEn7L
+HF2UslF6hFTKdoEU+vWBLyG+k2mmNIa+zL+F6YmFN8v34AvtZyX2oEUJTmBm0VTy
+RWNlSQ==
+-----END CERTIFICATE-----
+enableContourHttpProxy: true
+harborAdminPassword: Password12345
+secretKey: M2blh8iIZIWL9Kvv
+database:
+  password: 0ZuG0STKmHYAs3aE
+core:
+  replicas: 1
+  secret: jML4MAuLIEgOFmq8
+  xsrfKey: ZcEYnGlUSBJvP7jrf9zKuZh4OFoNfIUQ
+jobservice:
+  replicas: 1
+  secret: 6TW3Ylpg8LpYjixp
+registry:
+  replicas: 1
+  secret: Ee48fjRlkMm4n2l6
+notary:
+  enabled: true
+trivy:
+  enabled: true
+  replicas: 1
+  gitHubToken: ""
+  skipUpdate: false
+persistence:
+  persistentVolumeClaim:
+    registry:
+      existingClaim: ""
+      storageClass: "vc01cl01-t0compute"
+      subPath: ""
+      accessMode: ReadWriteOnce
+      size: 10Gi
+    jobservice:
+      existingClaim: ""
+      storageClass: "vc01cl01-t0compute"
+      subPath: ""
+      accessMode: ReadWriteOnce
+      size: 1Gi
+    database:
+      existingClaim: ""
+      storageClass: "vc01cl01-t0compute"
+      subPath: ""
+      accessMode: ReadWriteOnce
+      size: 1Gi
+    redis:
+      existingClaim: ""
+      storageClass: "vc01cl01-t0compute"
+      subPath: ""
+      accessMode: ReadWriteOnce
+      size: 1Gi
+    trivy:
+      existingClaim: ""
+      storageClass: "vc01cl01-t0compute"
+      subPath: ""
+      accessMode: ReadWriteOnce
+      size: 5Gi
+  imageChartStorage:
+    disableredirect: false
+    type: filesystem
+    filesystem:
+      rootdirectory: /storage
+    azure:
+      accountname: accountname
+      accountkey: base64encodedaccountkey
+      container: containername
+      realm: core.windows.net
+    gcs:
+      bucket: bucketname
+      encodedkey: base64-encoded-json-key-file
+      rootdirectory: null
+      chunksize: 5242880
+    s3:
+      region: us-west-1
+      bucket: bucketname
+      accesskey: null
+      secretkey: null
+      regionendpoint: null
+      encrypt: false
+      keyid: null
+      secure: true
+      v4auth: true
+      chunksize: null
+      rootdirectory: null
+      storageclass: STANDARD
+    swift:
+      authurl: https://storage.myprovider.com/v3/auth
+      username: username
+      password: password
+      container: containername
+      region: null
+      tenant: null
+      tenantid: null
+      domain: null
+      domainid: null
+      trustid: null
+      insecureskipverify: null
+      chunksize: null
+      prefix: null
+      secretkey: null
+      accesskey: null
+      authversion: null
+      endpointtype: null
+      tempurlcontainerkey: null
+      tempurlmethods: null
+    oss:
+      accesskeyid: accesskeyid
+      accesskeysecret: accesskeysecret
+      region: regionname
+      bucket: bucketname
+      endpoint: null
+      internal: null
+      encrypt: null
+      secure: null
+      chunksize: null
+      rootdirectory: null
+proxy:
+  httpProxy:
+  httpsProxy:
+  noProxy: 127.0.0.1,localhost,.local,.internal
+pspNames: vmware-system-restricted,vmware-system-privileged
+metrics:
+  enabled: false
+  core:
+    path: /metrics
+    port: 8001
+  registry:
+    path: /metrics
+    port: 8001
+  exporter:
+    path: /metrics
+    port: 8001

@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: catweb-go
+spec:
+  selector:
+    matchLabels:
+      app: catweb
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: catweb
+    spec:
+      containers:
+      - name: catweb
+        image: registry.h2o-4-1478.h2o.vmware.com/pvanderbleek/catweb-go
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
